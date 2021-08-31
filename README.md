@@ -28,10 +28,10 @@ The data source is not included in the git repository. The R script downloads it
 Analyzed source data
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-(see below for licensing conditions of the data itself)
+(see below for licensing conditions of the data itself) 
 
-Notes about data structure:
-"X_train.txt" has 7352 lines with sample values -> 561 columns, described by name in "features.txt" and with more info in "features_info.txt"
-"subject_train.txt" has 7352 lines with coded values for the person (subject)
-"y_train.txt" has 7352 lines with coded values for the activity
-The same structure is repeated for test (replace "train" with "test" in file names, 2947 lines with measurement values which are added to the 7352 lines from the training set).
+Notes about data structure: 
+"X_train.txt" has 7352 lines with sample values -> 561 columns, described by name in "features.txt" and with more info in "features_info.txt" 
+"subject_train.txt" has 7352 lines with coded values for the person (subject) 
+"y_train.txt" has 7352 lines with coded values for the activity 
+The same structure is repeated for test (replace "train" with "test" in file names, 2947 lines with measurement values which are added to the 7352 lines from the training set). 
