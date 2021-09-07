@@ -1,0 +1,42 @@
+---
+title: "codebook"
+author: "Chetan Kumar"
+date: "06/09/2021"
+output:
+  html_document:
+    df_print: paged
+---
+
+# Load Packages {.tabset}
+## tidyverse
+
+```{r}
+if(!require(tidyverse)){
+        install.packages("tidyverse",dependencies = TRUE)
+        library(tidyverse)
+}
+```
+
+## summarytools
+
+```{r}
+if(!require(summarytools)){
+        install.packages("summarytools",dependencies = TRUE)
+        library(summarytools)
+}
+```
+
+# Import Data
+
+```{r}
+dataset <- read.csv("FinalData.txt")
+
+```
+
+# Codebook
+
+```{r Codebook}
+
+print(dfSummary(dataset, graph.magnif = .75), method = 'render')
+
+```
